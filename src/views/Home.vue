@@ -47,6 +47,7 @@ export default Vue.extend({
           {{ lesson.name }}
         </span>
 
+        {{ lesson }}
         <a
           v-if="lesson.code"
           class="card__link"
