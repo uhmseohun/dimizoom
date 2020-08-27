@@ -53,7 +53,7 @@ export default Vue.extend({
           :href="getMeetingURL(lesson.code)"
           target="__blank"
         >
-          바로가기 ➜
+          바로가기 &#xE001;
         </a>
       </div>
     </div>
