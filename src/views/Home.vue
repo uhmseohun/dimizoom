@@ -46,17 +46,16 @@ export default Vue.extend({
         >
           {{ lesson.name }}
         </span>
-
-        {{ lesson }}
-        <a
-          v-if="lesson.code"
-          class="card__link"
-          :href="getMeetingURL(lesson.code)"
-          target="__blank"
-        >
-          바로가기 &#xE001;
-        </a>
       </div>
+
+      <a
+        v-if="lesson.code"
+        class="card__link"
+        :href="getMeetingURL(lesson.code)"
+        target="__blank"
+      >
+        바로가기 &#xE001;
+      </a>
     </div>
   </div>
   <adfit-banner
