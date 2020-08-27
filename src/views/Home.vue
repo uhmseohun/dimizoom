@@ -58,11 +58,6 @@ export default Vue.extend({
       </a>
     </div>
   </div>
-  <adfit-banner
-    class="ad"
-    data-ad-test="Y"
-    data-ad-unit="DAN-s50ng1mn136t">
-  </adfit-banner>
 </div>
 </template>
 
@@ -104,9 +99,5 @@ export default Vue.extend({
     text-decoration: none;
     color: #417BF4;
   }
-}
-
-.ad {
-  margin-top: 30px;
 }
 </style>
