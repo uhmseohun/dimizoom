@@ -14,7 +14,8 @@ body {
 }
 
 #app {
-  width: 450px;
+  width: 100vw;
+  max-width: 450px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
