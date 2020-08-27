@@ -27,6 +27,35 @@ export default Vue.extend({
 <div class="container">
   <h1 class="service-title">오늘의 온라인 수업</h1>
   <div class="card-wrapper">
+    <div class="card">
+      <h4 class="card__title">아침 조회 및 종례</h4>
+      <div class="card__meta-wrapper">
+        <span class="card__description">이재민 선생님</span>
+      </div>
+
+      <a
+        class="card__link"
+        :href="getMeetingURL(7864104388)"
+        target="__blank"
+      >
+        바로가기 &#xE001;
+      </a>
+      <a
+        class="card__link"
+        href="https://eduro.goe.go.kr/stv_cvd_co00_002.do"
+        target="__blank"
+      >
+        건강상태 자가진단 &#xE001;
+      </a>
+      <a
+        class="card__link"
+        href="http://benedu.co.kr/StudentStudy/TaskList"
+        target="__blank"
+      >
+        베네듀 일일학습 &#xE001;
+      </a>
+    </div>
+
     <div
       class="card"
       v-for="(lesson, index) in todayLessons"
