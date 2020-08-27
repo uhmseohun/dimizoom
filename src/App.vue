@@ -14,7 +14,7 @@ body {
 }
 
 #app {
-  width: 100vw;
+  width: 95vw;
   max-width: 450px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
