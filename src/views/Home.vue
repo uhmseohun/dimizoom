@@ -34,10 +34,21 @@ export default Vue.extend({
     >
       <h4 class="card__title">{{ index + 1 }}교시</h4>
       <div class="card__meta-wrapper">
-        <span class="card__description">
+        <span
+          v-if="lesson.teacher"
+          class="card__description"
+        >
           {{ lesson.name }} | {{ lesson.teacher }} 선생님
         </span>
+        <span
+          v-else
+          class="card__description"
+        >
+          {{ lesson.name }}
+        </span>
+
         <a
+          v-if="lesson.code"
           class="card__link"
           :href="getMeetingURL(lesson.code)"
           target="__blank"
@@ -47,6 +58,11 @@ export default Vue.extend({
       </div>
     </div>
   </div>
+  <adfit-banner
+    class="ad"
+    data-ad-test="Y"
+    data-ad-unit="DAN-s50ng1mn136t">
+  </adfit-banner>
 </div>
 </template>
 
@@ -88,5 +104,9 @@ export default Vue.extend({
     text-decoration: none;
     color: #417BF4;
   }
+}
+
+.ad {
+  margin-top: 30px;
 }
 </style>

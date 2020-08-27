@@ -9216,6 +9216,13 @@ vm-browserify@^1.0.1:
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha1-eGQcSIuObKkadfUR56OzKobl3aA=
 
+vue-adfit-component@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/vue-adfit-component/-/vue-adfit-component-1.0.2.tgz#320acf071b5a55f0ebdc2ca475c0f3ea49dd5798"
+  integrity sha512-e0xMiC6r1H0FNUmwP/MXmRUGBO0ddvXkYDsjf3EQSzDOLlUrCtVwARhIdVKXxKxhEMTydfPMftMROHRcY3QT4g==
+  dependencies:
+    vue "^2.6.11"
+
 vue-eslint-parser@^7.0.0:
   version "7.1.0"
   resolved "https://registry.npm.taobao.org/vue-eslint-parser/download/vue-eslint-parser-7.1.0.tgz#9cdbcc823e656b087507a1911732b867ac101e83"

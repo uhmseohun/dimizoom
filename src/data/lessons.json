@@ -70,6 +70,8 @@
     "link": "7864104388"
   },
   {
-    "name": "동아리"
+    "name": "동아리",
+    "teacher": false,
+    "link": false
   }
 ]
