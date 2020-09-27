@@ -69,7 +69,7 @@ export default Vue.extend({
       </a>
       <a
         class="card__link"
-        href="https://eduro.goe.go.kr/stv_cvd_co00_002.do"
+        href="https://hcs.eduro.go.kr"
         target="__blank"
       >
         건강상태 자가진단 &#xE001;
