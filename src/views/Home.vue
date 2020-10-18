@@ -10,33 +10,6 @@ export default Vue.extend({
       const today = [
         null, 'mon', 'tue', 'wed', 'thu', 'fri', null,
       ][new Date().getDay()];
-      if (new Date().getMonth() === 8) {
-        if (new Date().getDate() === 28) {
-          timetables[today] = [
-            '성공적인 직업생활',
-            '응용프로그래밍 화면구현',
-            '수학 II',
-            '영어 I',
-            '중국어 I',
-            '문학',
-            'HR',
-          ];
-          alert('시간표가 변동되었습니다.');
-        } else if (new Date().getDate() === 29) {
-          timetables[today] = [
-            '영어 I',
-            '문학',
-            '공업수학',
-            '자료구조',
-          ];
-          alert('시간표가 변동되었습니다.');
-        }
-      } else if (new Date().getMonth() === 9) {
-        if (new Date().getDate() === 5) {
-          timetables[today] = timetables.fri;
-        }
-        alert('시간표가 변동되었습니다.');
-      }
       const mappedTimetable = timetables[today]
         .map((v) => lessons.find((_v) => _v.name === v));
       return mappedTimetable;
