@@ -44,7 +44,9 @@
       "parser": "babel-eslint"
     },
     "rules": {
-      "no-alert": "off"
+      "no-alert": "off",
+      "quote-props": "off",
+      "operator-linebreak": "off"
     }
   },
   "browserslist": [

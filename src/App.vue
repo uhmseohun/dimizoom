@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
@@ -10,7 +10,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f8cad2;
 }
 
 #app {
@@ -21,4 +20,6 @@ body {
   font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
   padding: 30px 0;
 }
+
+* { user-select: none; }
 </style>
