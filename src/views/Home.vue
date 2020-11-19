@@ -85,6 +85,19 @@ export default Vue.extend({
     },
   },
   created() {
+    if (new Date().getMonth() === 10) {
+      if (new Date().getDate() === 19) {
+       timetables[today] = [
+         '성공적인 직업생활',
+         '수학 II',
+         '수학 II',
+         '화학 I',
+         '중국어 I',
+         '문학',
+         'HR',
+        ];
+      }
+    }
     const displayMode = localStorage.getItem('displayMode');
     if (displayMode) this.displayMode = displayMode;
     this.refreshContainerStyle();
