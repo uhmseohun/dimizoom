@@ -85,11 +85,6 @@ export default Vue.extend({
     },
   },
   created() {
-    if (new Date().getMonth() === 11) {
-      if (new Date().getDate() === 1) {
-        timetables.tue = timetables.thu;
-      }
-    }
     const displayMode = localStorage.getItem('displayMode');
     if (displayMode) this.displayMode = displayMode;
     this.refreshContainerStyle();
